@@ -27,7 +27,5 @@ def main():
     print("번역된 PDF를 생성하는 중...")
     create_translated_pdf(processed_elements, output_pdf_path, page_sizes, target_language)
 
-    print(f"번역된 PDF가 {output_pdf_path}로 저장되었습니다.")
-
 if __name__ == '__main__':
     main()
